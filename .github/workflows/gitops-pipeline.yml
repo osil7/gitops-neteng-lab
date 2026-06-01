@@ -7,10 +7,10 @@ on:
   workflow_dispatch:
 
 env:
-  CML_URL: ${{secrets.CMS_URL}}
-  CML_USERNAME: ${{secrets.CMS_USERNAME}}
-  CML_PASSWORD: ${{secrets.CMS_PASSWORD}}
-  CML_LAB_ID: ${{secrets.CMS_LAB_ID}}
+  CML_URL: ${{secrets.CML_URL}}
+  CML_USERNAME: ${{secrets.CML_USERNAME}}
+  CML_PASSWORD: ${{secrets.CML_PASSWORD}}
+  CML_LAB_ID: ${{secrets.CML_LAB_ID}}
 
 jobs:
   validate:
